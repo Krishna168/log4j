@@ -1,0 +1,5 @@
+22:35:35.247 [main] INFO  gamma.Testlogs4j - Window is getting maximized
+22:35:39.399 [main] INFO  gamma.Testlogs4j - Launching the Amazon Official Website
+22:35:51.046 [main] DEBUG gamma.Testlogs4j - Enter the search item as tables
+22:35:51.562 [main] DEBUG gamma.Testlogs4j - After entering the search item, pressing enter button
+22:35:56.610 [main] ERROR gamma.Testlogs4j - No errors found but test if logs are getting printed for error
