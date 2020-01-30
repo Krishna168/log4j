@@ -9,8 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Testlogs4j {
-	
-	  private static Logger log=LogManager.getLogger(Testlogs4j.class.getName());
+
+	private static Logger log=LogManager.getLogger(Testlogs4j.class.getName());
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
@@ -26,7 +26,7 @@ public class Testlogs4j {
 		log.debug("After entering the search item, pressing enter button");
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys(Keys.ENTER);
 		log.error("No errors found but test if logs are getting printed for error");
-
+		//This is for git testing.
 	}
 
 }

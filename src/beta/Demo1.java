@@ -12,6 +12,8 @@ public class Demo1 {
 		log.info("Object is present");
 		log.error("object is not present");
 		log.fatal("this is fatal");
+		//This is for git testing.
+		
 
 	}
 
